@@ -30,6 +30,7 @@ header{
 #sign{
     float: right;
     margin-top: -10px;
+    padding-bottom: 15px;
 }
 
 #sign input{
@@ -270,5 +271,16 @@ footer span {
     section#second {
         height: 350px;
         padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    section#first {
+        height: 450px;
+    }
+
+    section#second {
+        height: 450px;
+        padding-top: 200px;
     }
 }
